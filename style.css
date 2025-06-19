@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Praise&display=swap');
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input, select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#header{
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#header .box-icon{
+  display: block;
+  width: 340px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#header h1{
+  font-size: 3.2em;
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  font-family: "Praise", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(to right, #6AAAFF, #D980F0, #F7708D,#FF8D6A );
+  -webkit-background-clip: text;
+  background-clip: text;   
+  color: transparent;
+}
+
+#header h1 strong{
+  font-family: "Praise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#header h2{
+  font-size: 1.4em;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: "Crimson Text", serif;
+}
+
+#header p{
+  font-size: 1em;
+  color: #777;
+  line-height: 1.3;
+  margin-bottom: 50px;
+  font-family: "Crimson Text", serif;
+}
+
+#header .actions.special {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: inline-block; 
+    position: relative; 
+}
+
+#header .actions.special li {
+    display: inline-block; 
+}
+
+#header .actions.special .button {
+    display: block; 
+    background-color: #ffffff; 
+    color: #777; 
+    padding: 12px 30px; 
+    border: 1px solid #eee; 
+    border-radius: 5px; 
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 0.9em; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+#header .actions.special .button:hover {
+    background: linear-gradient(to right, #D980F0, #F7708D );
+    color: #ffffff;
+    border: 1px solid #ffffff; 
+}
+
+
+#my {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 40px; 
+  padding: 50px; 
+  background-color: #fef6f7; 
+}
+
+#my div {
+  flex: 1;
+  max-width: 500px;
+}
+
+#my h3 {
+  font-family: "Crimson Text", serif;
+  font-size: 1.2em;
+  font-weight: bold; 
+  color: #555; 
+  line-height: 1.1; 
+  margin-bottom: 20px; 
+}
+
+#my p {
+  font-family: "Crimson Text", serif;
+  font-size: 1.1em; 
+  color: #777; 
+  line-height: 1.4;
+}
+
+#my img {
+  max-width: 45%; 
+  height: auto; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+#work {
+    padding: 80px 0;
+    background-color: #fdfdfd; 
+    text-align: center; 
+    max-width: 960px;
+    margin: 0 auto; 
+    padding-left: 20px; 
+    padding-right: 20px;
+}
+
+
+#work h3 {
+  font-family: "Crimson Text", serif;
+  font-size: 1.2em;
+  font-weight: bold; 
+    color: #444;
+    margin-bottom: 10px;
+    font-family: "Crimson Text", serif;
+    line-height: 1.3;
+}
+
+
+#work p {
+  font-family: "Crimson Text", serif;
+  font-size: 1.1em; 
+  color: #777; 
+  line-height: 1.4;
+  margin-bottom: 50px;
+}
+
+
+
+#work .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+#work .card { 
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    width: calc(33.333% - 20px);
+    text-align: center;
+    box-sizing: border-box;
+    position: relative; 
+    overflow: hidden;
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
+}
+
+#work .card:hover { 
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+#work .card img { 
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px 8px 0 0;
+    transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+#work .card-overlay { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,  #D980F0, #F7708D );
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
+
+
+#work .overlay-title { 
+  font-family: "Crimson Text", serif;
+    font-size: 1.3em; 
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #ffffff;
+    transform: translateY(20px);
+    opacity: 0; 
+    transition: transform 0.5s ease 0.2s, opacity 0.5s ease 0.2s; 
+}
+
+
+#work .overlay-description { 
+  font-family: "Crimson Text", serif;
+    font-size: 0.8em;
+    line-height: 1.5;
+    color: #f0f0f0;
+    transform: translateY(20px); 
+    opacity: 0; 
+    transition: transform 0.5s ease 0.3s, opacity 0.5s ease 0.3s; 
+}
+
+
+#work .overlay-button {
+  font-family: "Crimson Text", serif;
+    display: inline-block;
+    background-color: #fff;
+    color: #333; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.7em;
+    margin-top: 20px; 
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.5s ease 0.4s, opacity 0.5s ease 0.4s; 
+    transform: translateY(20px); 
+    opacity: 0; 
+}
+
+#work .overlay-button:hover {
+    background-color: #eee;
+    color: #000;
+}
+
+
+#work .card:hover .card-overlay {
+    opacity: 1; 
+}
+
+#work .card:hover img { 
+    filter: blur(5px); 
+    transform: scale(1.1); 
+}
+
+#work .card:hover .overlay-title, 
+#work .card:hover .overlay-description,
+#work .card:hover .overlay-button {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+#work .card:hover .card-title,
+#work .card:hover .card-text,
+#work .card:hover .card-button {
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none; 
+    visibility: hidden; 
+}
+
+footer{
+  text-align: center;
+  padding: 20px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #6AAAFF, #D980F0, #F7708D,#FF8D6A );
+}
+
+footer .logo{
+  padding: 10px 20px;
+}
+footer .logo img{
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+footer .footer-info{
+  font-family: "Crimson Text", serif;
+  font-size: 0.7em;
+  font-weight: 400;
+  color:#fef6f7
+}
+
+footer .footer-info span{
+  margin: 0 5px;
+}
